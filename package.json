@@ -1,0 +1,31 @@
+{
+  "name": "02-web-playwright",
+  "version": "1.0.0",
+  "description": "E2E Web Automation with Playwright, TypeScript, and Page Object Model against SauceDemo",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "web-testing",
+    "e2e",
+    "typescript",
+    "saucedemo",
+    "page-object-model",
+    "pom",
+    "qa",
+    "sdet"
+  ],
+  "author": "Victor",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "1.50.1",
+    "@types/node": "^20.11.24",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  }
+}
